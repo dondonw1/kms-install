@@ -1,0 +1,23 @@
+
+upgrade home to pro:
+as long as you have pro keys. (or enterprise/kms). you should be able to upgrade.
+
+. Disconnect the internet connection of your PC.
+
+2. Press Windows key + I, then go to System > Activation.
+
+3. Click the "Change" button beside the Change product key option, then use the generic key below to upgrade to Windows 11 Pro.
+
+VK7JG-NPHTM-C97JM-9MPGT-3V66T
+
+Once you upgraded to Windows 11 Pro, connect your internet to the PC then use your valid Windows 10 Pro product key to activate the system.
+
+(if u have a kms server , then follow up with )
+
+rem Windows 11 / 10 Enterprise Key public kms key
+
+slmgr.vbs /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
+
+slmgr.vbs -skms <your kms server ip address>
+
+SLMGR /ATO
